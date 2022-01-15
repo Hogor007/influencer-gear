@@ -49,14 +49,14 @@ nav {
   text-decoration: none;
   color: black;
   font-size: 1.5em;
-  transition: color 0.3s linear;
+  transition: color 0.5s linear;
 }
 
 .menu ul li a:hover {
   color: orange;
 }
 
-/* header section starts here  */
+/* HEADER */
 header {
   min-height: 70vh;
   width: 100vw;
@@ -64,7 +64,7 @@ header {
   justify-content: space-around;
   align-items: center;
 }
-.left_side {
+.left-side {
   width: 50vw;
   height: 100%;
   display: flex;
@@ -73,14 +73,14 @@ header {
   padding-left: 8%;
   padding-right: 6%;
 }
-.left_side h1 {
+.left-side h1 {
   font-size: 3.5em;
   font-weight: bold;
 }
-.left_side p {
+.left-side p {
   font-weight: 600;
 }
-.left_side a {
+.left-side a {
   text-decoration: none;
   color: white;
   background-color: #e02c6d;
@@ -88,19 +88,20 @@ header {
   width: 150px;
   border-radius: 50px;
   font-size: 1.2em;
-  transition: all 0.2s linear;
+  transition: all 0.5s linear;
 }
-.left_side a:hover {
-  border-radius: 5px;
+.left-side a:hover {
+  color: #e02c6d;
+  background-color: white;
 }
 
-.right_side {
+.right-side {
   height: 100%;
   width: 50vw;
   display: flex;
   align-items: center;
 }
-.right_side img {
+.right-side img {
   width: 440px;
   height: 440px;
   background-image: url(images/Circle\ design.svg);
@@ -110,7 +111,7 @@ header {
   margin-left: 20%;
 }
 
-/* companies section starts here  */
+/* COMPANIES  */
 .companies {
   width: 100vw;
   min-height: 14vh;
@@ -124,19 +125,11 @@ header {
   min-height: 10vh;
   border-top: 2px solid rgb(210, 210, 210);
   border-bottom: 2px solid rgb(210, 210, 210);
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
-/* company section ends here  */
-
-/* product section starts here  */
-
+/* PRODUCTS  */
 .products {
   width: 100vw;
   min-height: 100vh;
@@ -145,7 +138,7 @@ header {
   flex-direction: column;
   align-items: center;
 }
-.products_title {
+.products-title {
   font-size: 28px;
   text-align: center;
   margin: 5vh 0;
@@ -217,7 +210,7 @@ header {
   align-items: center;
 }
 
-.about_text {
+.about-text {
   width: 50vw;
   height: 100%;
   display: flex;
@@ -226,14 +219,14 @@ header {
   padding-left: 8%;
   padding-right: 6%;
 }
-.about_text h1 {
+.about-text h1 {
   font-size: 3.5em;
   font-weight: bold;
 }
-.about_text p {
+.about-text p {
   font-weight: 600;
 }
-.about_text a {
+.about-text a {
   text-decoration: none;
   color: white;
   background-color: #e02c6d;
@@ -241,13 +234,14 @@ header {
   width: 150px;
   border-radius: 50px;
   font-size: 1.2em;
-  transition: all 0.2s linear;
+  transition: all 0.5s linear;
 }
-.about_text a:hover {
-  border-radius: 5px;
+.about-text a:hover {
+  color: #e02c6d;
+  background-color: white;
 }
 
-.about_image {
+.about-image {
   height: 100%;
   width: 50vw;
   display: flex;
@@ -276,10 +270,10 @@ footer .links a {
   text-decoration: none;
   margin-left: 1vw;
   font-size: 20px;
-  transition: all 0.3s linear;
+  transition: all 0.5s linear;
 }
 .links a:hover {
-  color: orange;
+  color: rgba(67, 27, 212, 0.692);
 }
 .lime {
   color: lime;
@@ -319,24 +313,24 @@ Mobile and Tablet version
     margin-top: 5vh;
     margin-bottom: 5vh;
   }
-  .right_side {
+  .right-side {
     width: 100vw;
     margin-bottom: 5vh;
   }
-  .right_side img {
+  .right-side img {
     width: 250px;
     height: 250px;
     background-size: 220px;
     margin: auto;
   }
-  .left_side{
+  .left-side{
     width: 100vw;
     text-align: center;
   }
-  .left_side h1 {
+  .left-side h1 {
     font-size: 2em;
   }
-  .left_side a{
+  .left-side a{
     margin: auto;
   }
   .company{
@@ -365,23 +359,23 @@ Mobile and Tablet version
     justify-content: center;
     text-align: center;
   }
-  .about_text, .about_image{
+  .about-text, .about-image{
     width: 100vw;
   }
-  .about_text{
+  .about-text{
     margin-bottom: 100px;
   }
-  .about_text a{
+  .about-text a{
     margin: auto;
   }
-  .about_text h1{
+  .about-text h1{
     font-size: 2.5em;
   }
-  .about_image{
+  .about-image{
     background-image: none;
     width: 100vw;
   }
-  .about_image img{
+  .about-image img{
     width: 90vw;
     margin-left: 0;
   }
@@ -425,24 +419,24 @@ Mobile and Tablet version
     margin-top: 5vh;
     margin-bottom: 5vh;
   }
-  .right_side {
+  .right-side {
     width: 100vw;
     margin-bottom: 5vh;
   }
-  .right_side img {
+  .right-side img {
     width: 250px;
     height: 250px;
     background-size: 220px;
     margin: auto;
   }
-  .left_side{
+  .left-side{
     width: 100vw;
     text-align: center;
   }
-  .left_side h1 {
+  .left-side h1 {
     font-size: 2em;
   }
-  .left_side a{
+  .left-side a{
     margin: auto;
   }
   .company{
@@ -471,22 +465,22 @@ Mobile and Tablet version
     justify-content: center;
     text-align: center;
   }
-  .about_text, .about_image{
+  .about-text, .about-image{
     width: 100vw;
   }
-  .about_text{
+  .about-text{
     margin-bottom: 100px;
   }
-  .about_text a{
+  .about-text a{
     margin: auto;
   }
-  .about_text h1{
+  .about-text h1{
     font-size: 2.5em;
   }
-  .about_image{
+  .about-image{
     background-image: none;
   }
-  .about_image img{
+  .about-image img{
     width: 90vw;
 
   }
@@ -509,7 +503,7 @@ Mobile and Tablet version
   .menu ul li a{
     font-size: 1.2em;
   }
-  .left_side h1 {
+  .left-side h1 {
     font-size: 3em;
   }
   .products{
@@ -525,13 +519,13 @@ Mobile and Tablet version
   .product{
    margin: 10px auto;
   }
-  .about_text h1{
+  .about-text h1{
     font-size: 2em;
   }
-  .about_image{
+  .about-image{
     background-image: none;
   }
-  .about_image img{
+  .about-image img{
     width: 90%;
   }
 }
