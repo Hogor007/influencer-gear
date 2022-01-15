@@ -53,7 +53,8 @@ nav {
 }
 
 .menu ul li a:hover {
-  color: orange;
+  color: #e02c6d;
+  text-decoration: underline;
 }
 
 /* HEADER */
@@ -109,6 +110,10 @@ header {
   background-repeat: no-repeat;
   background-size: 400px;
   margin-left: 20%;
+}
+.right-side img:hover{
+  transform: rotate(360deg);
+  transition: transform 2s ease-in-out;
 }
 
 /* COMPANIES  */
@@ -196,7 +201,7 @@ header {
   transition: all 0.2s linear;
 }
 .products a:hover {
-  color: orange;
+  color: #2ce09b;
   text-decoration: underline;
 }
 
