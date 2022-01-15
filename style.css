@@ -83,8 +83,8 @@ header {
 }
 .left-side a {
   text-decoration: none;
-  color: white;
-  background-color: #e02c6d;
+  color: #e02c6d;
+  background-color: white;
   padding: 10px;
   width: 150px;
   border-radius: 50px;
@@ -92,8 +92,8 @@ header {
   transition: all 0.5s linear;
 }
 .left-side a:hover {
-  color: #e02c6d;
-  background-color: white;
+  color: white;
+  background-color: #e02c6d;
 }
 
 .right-side {
@@ -233,8 +233,8 @@ header {
 }
 .about-text a {
   text-decoration: none;
-  color: white;
-  background-color: #e02c6d;
+  color: #e02c6d;
+  background-color: white;
   padding: 10px;
   width: 150px;
   border-radius: 50px;
@@ -242,8 +242,8 @@ header {
   transition: all 0.5s linear;
 }
 .about-text a:hover {
-  color: #e02c6d;
-  background-color: white;
+  color: white;
+  background-color: #e02c6d;
 }
 
 .about-image {
